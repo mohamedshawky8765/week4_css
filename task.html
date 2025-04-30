@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav {
+            color: white;
+            background-color: rgb(104, 189, 85);
+            text-align: center;
+            padding: 50px;
+        }
+
+        .page {
+            display: grid;
+            height: 100vb;
+            background-color: #f9f9f9;
+            grid-template-columns: repeat(10%, 1fr);
+            grid-template-rows: 20% auto;
+            justify-content: center;
+        }
+
+        footer {
+            background-color: rgb(104, 189, 85);
+        }
+
+        footer div {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <nav>
+            <h1>sponsership</h1>
+        </nav>
+
+        <span class="font">
+            <h2>non_profit_organization</h2>
+        </span>
+        <div class="non_profit_organization">
+            <form>
+                <lable for="name">name</lable>
+                <input type="text" id="name">
+                <lable for="phone_number">phone_number</lable>
+                <input type="text" id="phone_number">
+                <br>
+                <lable for="street_address">street_address</lable>
+                <input type="text" id="street_address">
+                <br>
+                <lable for="city">city</lable>
+                <input type="text" id="city">
+                <lable for="state">state</lable>
+                <input type="text" id="state">
+                <lable for="zip_code">zip_code</lable>
+                <input type="text" id="zip_code">
+        </div>
+        <hr>
+        <div class="sponsor_contact_info">
+            <span class="font">
+                <h2>sponsor_contact_info</h2>
+            </span>
+            <lable for="first_name">first_name</lable>
+            <input type="text" id="first_name">
+            <lable for="last_name">last_name</lable>
+            <input type="text" id="last_name">
+            <br>
+            <lable for="phone_number">phone_number</lable>
+            <input type="text" id="phone_number">
+            <lable for="email">email</lable>
+            <input type="text" id="email">
+            <br>
+            <lable for="street_address">street_address</lable>
+            <input type="text" id="street_address">
+            <br>
+            <lable for="city">city</lable>
+            <input type="text" id="city">
+            <lable for="state">state</lable>
+            <input type="text" id="state">
+            <lable for="zip_code">zip_code</lable>
+            <input type="text" id="zip_code">
+        </div>
+        <hr>
+        <span class="font">
+            <h2>donation_amount</h2>
+        </span>
+        <div class="donation_amount">
+            <lable for="donation_amount">donation_amount</lable>
+            <input type="text" id="donation_amount">
+            <lable for="payment_method">payment_method</lable>
+            <input type="text" id="payment_method">
+            </form>
+        </div>
+        <footer>
+            <div>
+                <form>
+                    <input type="submit">
+                </form>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
