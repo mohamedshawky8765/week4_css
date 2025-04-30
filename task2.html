@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .page {
+            display: grid;
+            height: auto;
+            width: 100vb;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: 30px 1fr 1fr;
+            grid-template-areas: "aside aside nav nav nav nav nav nav nav nav"
+                "aside aside cont cont cont cont cont cont cont cont"
+                "aside aside cont cont cont cont cont cont cont cont";
+            justify-content: center;
+        }
+
+        nav {
+            grid-area: nav;
+            background-color: rgb(236, 191, 109);
+        }
+
+        aside {
+
+            grid-area: aside;
+            background-color: #eee;
+        }
+
+        content {
+            grid-area: cont;
+
+
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <nav>
+            <ul>
+
+                <li><a href="https://github.com/mohamedshawky8765/week4_css">All</a> </li>
+                <li><a href="https://github.com/mohamedshawky8765/week4_css">illustration </a> </li>
+                <li> <a href="https://github.com/mohamedshawky8765/week4_css">illustration </a></li>
+                <li><a href="https://github.com/mohamedshawky8765/week4_css">motion </a> </li>
+                <li><a href="https://github.com/mohamedshawky8765/week4_css">photography </a></li>
+                <li><a href="https://github.com/mohamedshawky8765/week4_css">print</a></li>
+            </ul>
+        </nav>
+        <aside>
+            <h1>ink</h1>
+            <br>
+            portifolio
+            <br>
+            <a href="https://github.com/mohamedshawky8765/week4_css">about us</a>
+            <a href="https://github.com/mohamedshawky8765/week4_css">blog </a>
+            <a href="https://github.com/mohamedshawky8765/week4_css">buy tihs theme </a>
+            <br>
+            <h3>a text widget</h3>
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Distinctio nesciunt, debitis ad nisi placeat quis
+
+
+        </aside>
+        <content>
+            <img src="something.jpg" alt="img" width="145vb" height="150vb">
+            <img src="something.jpg" alt="img" width="145vb" height="150vb">
+            <img src="something.jpg" alt="img" width="145vb" height="150vb">
+            <img src="something.jpg" alt="img" width="145vb" height="150vb">
+            <img src="something.jpg" alt="img" width="145vb" height="150vb">
+            <img src="something.jpg" alt="img" width="145vb" height="150vb">
+            <img src="something.jpg" alt="img" width="145vb" height="150vb">
+            <img src="something.jpg" alt="img" width="145vb" height="150vb">
+            <img src="something.jpg" alt="img" width="145vb" height="150vb">
+            <img src="something.jpg" alt="img" width="145vb" height="150vb">
+            <img src="something.jpg" alt="img" width="145vb" height="150vb">
+            <img src="something.jpg" alt="img" width="145vb" height="150vb">
+        </content>
+    </div>
+</body>
+
+
+</html>
